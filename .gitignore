@@ -1,2 +1,38 @@
-node_modules
+# Ignore environment files
 .env
+config.json
+secrets.json
+
+# Ignore dependency directories
+node_modules/
+venv/
+__pycache__/
+
+# Ignore log and cache files
+*.log
+*.cache
+*.pid
+*.pyc
+*.pyo
+
+# Ignore build and compiled files
+dist/
+build/
+*.exe
+*.out
+*.o
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore frontend build files
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Ignore backend dependencies
+backend/__pycache__/
+backend/venv/
+backend/.env
